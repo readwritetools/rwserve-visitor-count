@@ -13,5 +13,5 @@
 //
 // ---------- Run as RWSERVE plugin  ---------- 
 run {
-	sh node --inspect=165.227.11.3:9229 ../../app/rwserve/dbg/main.js ../../app/rwserve/test/fixtures/configs/plugins/visitor-count-config   2> /dev/null
+	sh node --inspect=165.227.11.3:9229 ../../../app/rwserve/dbg/main.js ../etc/visitor-count-config   // 2> /dev/null
 }

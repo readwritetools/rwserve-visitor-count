@@ -11,7 +11,8 @@
 //=============================================================================
 
 template {
-	eximjs 		 eximjs <source> <dest>
+	eximjs 		eximjs <source> <dest>
+	ghfm		blue compile <source> <dest> --emit=ghfm
 }
 
 // ---------- rewrite export/import (src) ---------- 
@@ -28,3 +29,9 @@ compare {
 	dest      '../src'
 }
 
+// ---------- Convert blue document into Github Flavored readme.md ---------- 
+recurse {
+	source '/palau/www/rwserve.readwritetools.com/plugins/rwserve-visitor-count.blue'
+	dest   '../readme.md' 
+	exec ghfm
+}
