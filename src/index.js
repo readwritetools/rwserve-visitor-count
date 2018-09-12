@@ -1,8 +1,8 @@
 //=============================================================================
 //
-// File:         rwt/rwserve-plugins/src/rwserve-visitor-count.class.js
+// File:         rwserve-visitor-count/src/index.js
 // Language:     ECMAScript 2015
-// Copyright:    Joe Honton © 2018
+// Copyright:    Read Write Tools © 2018
 // License:      MIT License
 // Initial date: Aug 25, 2018
 //

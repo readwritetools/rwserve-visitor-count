@@ -1,19 +1,30 @@
 {
   "name": "rwserve-visitor-count",
-  "version": "1.0.1",
-  "description": "RWSERVE plugin to count website visitors",
-  "private": true,
+  "version": "1.0.0",
+  "description": "RWSERVE plugin to easily count website visitors using favicon.ico",
   "author": "Read Write Tools",
-  "license": "MIT License",
+  "license": "MIT",
   "main": "dist/index.js",
-  "scripts": {
-    "bump-version": "npm version patch && git push && git push --tags",
-    "local": "node ../../app/rwserve/dbg/main.js ./etc/visitor-count-config",
-    "start": "rwserve ./etc/visitor-count-config"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/readwritetools/rwserve-visitor-count.git"
   },
   "dependencies": {
-    "rwserve-plugin-sdk": "git+ssh://root@nk024:/keep/rwserve-plugin-sdk#"
+    "rwserve-plugin-sdk": "^1.0.1"
   },
+  "scripts": {
+    "bump-version": "npm version patch && git push && git push --tags",
+    "start": "rwserve ./etc/visitor-count-config"
+  },
+  "keywords": [
+    "rwserve",
+    "http2",
+    "plugins"
+  ],
+  "bugs": {
+    "url": "https://github.com/readwritetools/rwserve-visitor-count/issues"
+  },
+  "homepage": "https://rwserve.readwritetools.com/plugins/rwserve-visitor-count.blue",
   "files": [
     "dist",
     "etc",
