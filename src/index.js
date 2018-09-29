@@ -46,7 +46,7 @@ export default class RwserveVisitorCount {
 	}
 	
 	async startup() {
-		log.debug('RwserveVisitorCount', 'v1.0.0; © 2018 Read Write Tools; MIT License'); 
+		log.debug('RwserveVisitorCount', `version ${this.visitorCountConfig.pluginVersion}; © 2018 Read Write Tools; MIT License`); 
 
 		// sanitize, using fallback if necessary
 		if (this.visitorCountConfig.saveAs && this.visitorCountConfig.saveAs.sourceref)
