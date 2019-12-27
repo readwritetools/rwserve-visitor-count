@@ -45,7 +45,7 @@ copy {
 
 // ---------- Convert blue document into Github Flavored readme.md ---------- 
 recurse {
-	source '/palau/www/rwserve.readwritetools.com/plugins/rwserve-visitor-count.blue'
+	source '/palau/www/rwserve.readwritetools.com/plugins/ghfm/rwserve-visitor-count.blue'
 	dest   '../readme.md' 
 	overwrite older
 	exec ghfm
