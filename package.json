@@ -1,6 +1,6 @@
 {
   "name": "rwserve-visitor-count",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "RWSERVE plugin to easily count website visitors using favicon.ico",
   "author": "Read Write Tools",
   "license": "MIT",
