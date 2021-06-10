@@ -6,10 +6,17 @@
 
 
 
+
+
+
+
+
 <figure>
 	<img src='/img/plugins/visitor-count/visitor-count-unsplash-mostafa-meraji.jpg' width='100%' />
 	<figcaption></figcaption>
 </figure>
+
+##### Open Source RWSERVE plugin
 
 # Visitor Count
 
@@ -17,7 +24,7 @@
 
 
 <address>
-<img src='/img/rwtools.png' width=80 /> by <a href='https://readwritetools.com' title='Read Write Tools'>Read Write Tools</a> <time datetime=2018-09-11>Sep 11, 2018</time></address>
+<img src='/img/48x48/rwtools.png' /> by <a href='https://readwritetools.com' title='Read Write Tools'>Read Write Tools</a> <time datetime=2018-09-11>Sep 11, 2018</time></address>
 
 
 
